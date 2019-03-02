@@ -3,6 +3,8 @@
 .byebug_history
 .DS_Store
 .env*
+.env
+.aws/credentials
 /node_modules
 /public/packs
 /public/packs-test
