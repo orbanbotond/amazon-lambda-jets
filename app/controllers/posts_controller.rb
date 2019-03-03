@@ -14,7 +14,6 @@ class PostsController < ApplicationController
   def show
     id = params[:id] # params available
     # puts goes to the lambda logs
-    puts event # raw lambda event available
     render json: {action: "show", id: id}
   end
 end
