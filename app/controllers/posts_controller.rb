@@ -16,4 +16,6 @@ class PostsController < ApplicationController
     # puts goes to the lambda logs
     render json: {action: "show", id: id}
   end
+
+  node :node_example
 end

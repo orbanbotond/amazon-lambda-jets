@@ -5,6 +5,7 @@ Jets.application.routes.draw do
 
   get  "posts", to: "posts#index"
   get  "posts/:id", to: "posts#show"
+  get  "posts/node_example", to: "posts#node_example"
 
   # The jets/public#show controller can serve static utf8 content out of the public folder.
   # Note, as part of the deploy process Jets uploads files in the public folder to s3
