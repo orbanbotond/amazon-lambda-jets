@@ -7,7 +7,7 @@ Jets.application.configure do
   # config.prewarm.concurrency = 2 # default is 2
   # config.prewarm.public_ratio = 3 # default is 3
 
-  config.env_extra = 2 # can also set this with JETS_ENV_EXTRA
+  # config.env_extra = "show-implemented" # can also set this with JETS_ENV_EXTRA
   # config.extra_autoload_paths = []
 
   # config.asset_base_url = 'https://cloudfront.domain.com/assets' # example
