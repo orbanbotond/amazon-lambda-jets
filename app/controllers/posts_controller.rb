@@ -5,7 +5,7 @@ class PostsController < ApplicationController
   #   render json: {title: p.title}
   # end
 
-  timeout 0.035
+  timeout 1
   def index
     # renders Lambda Proxy structure compatible with API Gateway
     render json: {hello: "world", action: "index"}
