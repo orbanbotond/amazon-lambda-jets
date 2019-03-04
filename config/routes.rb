@@ -1,4 +1,5 @@
 Jets.application.routes.draw do
+  resources :products
   root "jets/public#show"
 
   # resources :posts
